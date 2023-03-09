@@ -32,7 +32,7 @@ def main():
     elif 'f' in i.lower(): 
         name=input()
         if 'a' not in name:
-            with open("./test/"+name, mode='r',encoding="utf8") as fail:
+            with open("./tests/"+name, mode='r',encoding="utf8") as fail:
                 n=int(fail.readline())
                 s=fail.readline()
                 data = list(map(int, s.split()))
